@@ -1,3 +1,3 @@
 # testing_git_collaboration
 
-Me too, here is the line.
+This line should appear in aneln/testing_git_collaboration/new_tests branch
