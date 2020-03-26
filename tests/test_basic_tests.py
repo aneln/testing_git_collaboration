@@ -13,3 +13,9 @@ def test_summation():
     test that 2-2 is zero
     """
     np.testing.assert_equal(2-2, 0)
+
+def test_smth_else():
+    """
+    test that 2-3 is -1
+    """
+    np.testing.assert_equal(2-3, -1)
