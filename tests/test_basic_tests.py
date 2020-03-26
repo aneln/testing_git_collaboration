@@ -27,3 +27,10 @@ def test_string():
     Test that strings are equivalent
     """
     np.testing.assert_equal("AB", "A" + "B")
+
+
+def test_fail():
+    """
+    Illustration of a failing test
+    """
+    np.testing.assert_equal(9, 16)
