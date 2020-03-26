@@ -19,3 +19,11 @@ def test_smth_else():
     test that 2-3 is -1
     """
     np.testing.assert_equal(2-3, -1)
+
+
+
+def test_string():
+    """
+    Test that strings are equivalent
+    """
+    np.testing.assert_equal("AB", "A" + "B")
