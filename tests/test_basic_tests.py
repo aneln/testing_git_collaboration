@@ -34,3 +34,9 @@ def test_fail():
     Illustration of a failing test
     """
     np.testing.assert_equal(9, 16)
+
+def test_fail_another():
+"""
+Illustration of a failing test
+"""
+np.testing.assert_equal(2, 16)
